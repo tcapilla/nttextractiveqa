@@ -1,0 +1,22 @@
+farm==0.4.9
+--find-links=https://download.pytorch.org/whl/torch_stable.html
+fastapi
+uvicorn
+gunicorn
+pandas
+psycopg2-binary
+sklearn
+elasticsearch
+elastic-apm
+tox
+coverage
+langdetect # for PDF conversions
+# optional: sentence-transformers
+#temporarily (used for DPR downloads)
+wget
+python-multipart
+python-docx
+sqlalchemy_utils
+# for using FAISS with GPUs, install faiss-gpu
+faiss-cpu
+tika
